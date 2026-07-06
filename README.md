@@ -289,7 +289,7 @@ Developed NLP emotion classifiers using tokenization, vocabulary creation, a Bi-
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Mon3em20&show_icons=true&hide_border=true&title_color=94A3B8&text_color=CBD5E1&icon_color=7DD3FC&bg_color=0D1117" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mon3em20&hide_border=true&background=0D1117&stroke=1B2735&ring=7DD3FC&fire=7DD3FC&currStreakLabel=CBD5E1&sideLabels=CBD5E1&currStreakNum=CBD5E1&sideNums=CBD5E1&dates=94A3B8" width="48%"/>
+<img src="https://streak-stats.demolab.com/?user=Mon3em20&hide_border=true&background=0D1117&stroke=1B2735&ring=7DD3FC&fire=7DD3FC&currStreakLabel=CBD5E1&sideLabels=CBD5E1&currStreakNum=CBD5E1&sideNums=CBD5E1&dates=94A3B8" width="48%"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mon3em20&layout=compact&hide_border=true&title_color=94A3B8&text_color=CBD5E1&bg_color=0D1117" width="48%"/>
 
