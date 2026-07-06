@@ -4,7 +4,22 @@
 
 ### Cybersecurity Student | Offensive Security | Secure Software Engineering
 
-Focused on penetration testing, network security, digital forensics, cloud security, and secure backend development.
+<table>
+<tr>
+<td align="center">
+<b>Focus</b><br/>
+Penetration testing<br/>Network security<br/>Digital forensics
+</td>
+<td align="center">
+<b>Build</b><br/>
+Secure backend systems<br/>Web application security<br/>Cloud workflows
+</td>
+<td align="center">
+<b>Stack</b><br/>
+Node.js, React, Next.js<br/>NestJS, Python, AWS
+</td>
+</tr>
+</table>
 
 [LinkedIn](https://www.linkedin.com/in/abdelmonem-sayed-somida-9739b2312/) · [GitHub](https://github.com/Mon3em20) · [Email](mailto:monemsomida@gmail.com)
 
@@ -12,9 +27,32 @@ Focused on penetration testing, network security, digital forensics, cloud secur
 
 ---
 
-## Profile
+## Dashboard
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Profile
 
 Cybersecurity student specializing in offensive security, network security, and secure software engineering. I work across penetration testing, Active Directory exploitation, enterprise network hardening, digital forensics, web application security, and IAM risk assessment. I also build secure full-stack systems and have additional experience with deep learning for computer vision and NLP classification.
+
+</td>
+<td width="50%" valign="top">
+
+### Live Stats
+
+<a href="https://github.com/Mon3em20">
+	<img src="https://github-readme-stats.vercel.app/api?username=Mon3em20&show_icons=true&hide_border=true&title_color=94A3B8&text_color=CBD5E1&icon_color=7DD3FC&bg_color=0D1117" alt="GitHub stats" />
+</a>
+
+<a href="https://github.com/Mon3em20">
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mon3em20&layout=compact&hide_border=true&title_color=94A3B8&text_color=CBD5E1&bg_color=0D1117" alt="Top languages" />
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -53,6 +91,48 @@ Cybersecurity student specializing in offensive security, network security, and 
 - **Smart Attendance Tracking App** — Led Agile project coordination using Scrum, sprint planning, backlog management, stakeholder analysis, task tracking, and risk assessment. [GitHub](https://github.com/Mon3em20/smart-attendance-tracking-agile-project)
 - **Deep Learning Image Captioning System** — Built an image captioning pipeline on MS COCO using preprocessing, vocabulary creation, CNN feature extraction via ResNet50, and LSTM-based caption generation. [GitHub](https://github.com/Mon3em20/deep-learning-image-captioning)
 - **Emotion Classification** — Developed NLP emotion classifiers using tokenization, vocabulary creation, a Bi-LSTM model, and fine-tuned DistilBERT, then evaluated them with confusion matrix analysis. [GitHub](https://github.com/Mon3em20/emotion-classification-distilbert-bilstm)
+
+---
+
+## Skills Snapshot
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### Security
+
+Penetration testing<br/>
+Active Directory<br/>
+Web security<br/>
+Forensics<br/>
+Cloud security
+
+</td>
+<td width="33%" valign="top">
+
+#### Development
+
+Node.js<br/>
+React<br/>
+Next.js<br/>
+NestJS<br/>
+Python
+
+</td>
+<td width="33%" valign="top">
+
+#### Tools
+
+Burp Suite<br/>
+Kali Linux<br/>
+Metasploit<br/>
+Nmap<br/>
+Wireshark
+
+</td>
+</tr>
+</table>
 
 ---
 
