@@ -1,6 +1,25 @@
 # Repository Cleanup Plan (Phase 2)
 
-Status: **proposals only.** Nothing has been merged, pushed to another repository, archived, renamed, deleted, or had its metadata changed. Companion documents: [`DUPLICATE_REPOSITORY_ANALYSIS.md`](DUPLICATE_REPOSITORY_ANALYSIS.md) and [`SECURITY_HYGIENE_REPORT.md`](SECURITY_HYGIENE_REPORT.md).
+Companion documents: [`DUPLICATE_REPOSITORY_ANALYSIS.md`](DUPLICATE_REPOSITORY_ANALYSIS.md), [`SECURITY_HYGIENE_REPORT.md`](SECURITY_HYGIENE_REPORT.md), [`ACTION_PLANS.md`](ACTION_PLANS.md) (ID redaction, rename, history cleanup, full-history scanning) and [`supabase-key-migration/`](supabase-key-migration/) (RLS check guide and local migration script).
+
+## Status after approvals
+
+Nothing has been merged. Each approved patch is an open pull request on its own branch; `main` was never pushed to.
+
+| Patch | Repository | Pull request |
+|---|---|---|
+| 01 | `enterprise-network-security-lab` | [#1](https://github.com/Mon3em20/enterprise-network-security-lab/pull/1) |
+| 02 | `Secure-Enterprise-Network-Infrastructure` | [#1](https://github.com/Mon3em20/Secure-Enterprise-Network-Infrastructure/pull/1) |
+| 03 | `owasp-juice-shop-security-testing` | [#1](https://github.com/Mon3em20/owasp-juice-shop-security-testing/pull/1) |
+| 04 | `digital-forensics-investigations` | [#1](https://github.com/Mon3em20/digital-forensics-investigations/pull/1) |
+| 05 | `graduation-mpc-ff` | [#1](https://github.com/Mon3em20/graduation-mpc-ff/pull/1) |
+| 06 | `Bi-Directional-Chat-Application-with-TCP-Analysis` | [#1](https://github.com/Mon3em20/Bi-Directional-Chat-Application-with-TCP-Analysis/pull/1) |
+| 07 | `RSA-Encryption-and-Decryption-Implementation` | [#1](https://github.com/Mon3em20/RSA-Encryption-and-Decryption-Implementation/pull/1) |
+| 08 | `DES-Encryption-in-CBC-Mode` | **on hold** (the original ZIP and its history still contain student identifiers) |
+| 09 | `Library-Management-System` | [#1](https://github.com/Mon3em20/Library-Management-System/pull/1) (`.env` untracking, `.gitignore`, `.env.example` only) |
+| 10 | `ImageReveal` | [#2](https://github.com/Mon3em20/ImageReveal/pull/2) |
+
+Not done, by instruction: no history rewrite, force-push, key rotation, archiving, deletion, renaming, PDF redaction or metadata change. The `settings.py` migration is a local script, not a PR, so that no diff shows the old value. Patch 05 was strengthened with extra limitations after the original patch file was drafted; the file in `proposed-fixes/` matches the pull request.
 
 ## 1. Proposed documentation fixes (separate diffs)
 

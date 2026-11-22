@@ -1,4 +1,4 @@
-From 0b14a8c46a27f9ef4ee9d2ccb4ad7c5ff9ba150f Mon Sep 17 00:00:00 2001
+From 08fa28a6fe6c376a4e851ec89c613e244c2f3b60 Mon Sep 17 00:00:00 2001
 From: Claude Code <noreply@anthropic.com>
 Date: Sun, 22 Nov 2026 15:38:09 +0000
 Subject: [PATCH] Update README: record the single-seed matched-size Secure BP
@@ -7,11 +7,11 @@ Subject: [PATCH] Update README: record the single-seed matched-size Secure BP
 Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_012jmRt2neznxyD9z2G1Nh7w
 ---
- README.md | 37 ++++++++++++++++++++++++++++++++++---
- 1 file changed, 34 insertions(+), 3 deletions(-)
+ README.md | 47 ++++++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 44 insertions(+), 3 deletions(-)
 
 diff --git a/README.md b/README.md
-index 763e7ba..be35bfc 100644
+index 763e7ba..214c031 100644
 --- a/README.md
 +++ b/README.md
 @@ -43,9 +43,10 @@ all-layer inference, and the source default threshold. The four-layer,
@@ -28,7 +28,7 @@ index 763e7ba..be35bfc 100644
  - Both future BP profiles are rendered from
    [`mpc/programs/bp/bp_secure_template.mpc.in`](mpc/programs/bp/bp_secure_template.mpc.in)
    using [`scripts/generate_secure_bp_program.py`](scripts/generate_secure_bp_program.py).
-@@ -92,6 +93,34 @@ Its exact inputs, initialization, FP64 reference, metadata, and logs are under
+@@ -92,6 +93,44 @@ Its exact inputs, initialization, FP64 reference, metadata, and logs are under
  `results/mpc/bp/comparison_baseline/BP-COMP-001/`. See the
  [comparison-readiness report](docs/reports/bp_comparison_readiness.md).
  
@@ -47,9 +47,19 @@ index 763e7ba..be35bfc 100644
 +not a performance comparison, not production-scale training and not a security
 +proof. Known limitations:
 +
-+- One seed; no variance estimate.
++- One seed; no variance estimate and no repeated runs.
 +- Localhost execution says nothing about network performance; MP-SPDZ time and
-+  external wall-clock time cover different scopes.
++  external wall-clock time cover different scopes, and the hardware used is not
++  recorded in the run artifacts.
++- The protocol assumes three semi-honest parties with an honest majority. It
++  does not provide malicious security, and no formal security proof is claimed.
++- Fixed-point arithmetic and probabilistic truncation can make secure results
++  differ numerically from plaintext training.
++- The plaintext reference values come from the recorded seed-42 baseline and
++  were not re-run for this comparison. The checkpoint policy also differs
++  (plaintext: validation-selected; secure: epoch 5). The equal test accuracy is
++  a descriptive match for one seed, not evidence that secure training is
++  equivalent to or better than plaintext training.
 +- The run log reports that the computation domain is too small for low-round
 +  truncation (at least 103 bits needed). Its numerical and security impact is
 +  unresolved.
@@ -63,7 +73,7 @@ index 763e7ba..be35bfc 100644
  ## Experimental outputs
  
  - `results/benchmarks/plaintext/` contains Benchmark v1 CSVs and figures.
-@@ -133,6 +162,8 @@ That comparison is preserved in the BP audit.
+@@ -133,6 +172,8 @@ That comparison is preserved in the BP audit.
    2026-11-02.
  - **Stage B - Small end-to-end secure BP prototype:** COMPLETE - bounded
    Secure BP prototype (`A1-relu-corrected`).
