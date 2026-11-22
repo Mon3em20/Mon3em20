@@ -1,0 +1,43 @@
+From 962721c79322d2bf347e0dc8c07e758f129ee5c7 Mon Sep 17 00:00:00 2001
+From: Claude Code <noreply@anthropic.com>
+Date: Sun, 22 Nov 2026 15:37:34 +0000
+Subject: [PATCH] Fix repository structure: remove nonexistent screenshots
+ folder, close code fence
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_012jmRt2neznxyD9z2G1Nh7w
+---
+ README.md | 19 ++++++-------------
+ 1 file changed, 6 insertions(+), 13 deletions(-)
+
+diff --git a/README.md b/README.md
+index 4579263..443d07b 100644
+--- a/README.md
++++ b/README.md
+@@ -107,16 +107,9 @@ owasp-juice-shop-security-testing/
+ │
+ ├── README.md
+ │
+-├── reports/
+-│   ├── web-vulnerabilities-assessment-report.pdf
+-│   └── advanced-authentication-and-injection-testing-report.pdf
+-│
+-├── screenshots/
+-│   ├── stored-xss.png
+-│   ├── dom-xss.png
+-│   ├── reflected-xss.png
+-│   ├── sql-injection.png
+-│   ├── ssrf-testing.png
+-│   ├── brute-force-testing.png
+-│   ├── csrf-testing.png
+-│   └── broken-cors.png
+\ No newline at end of file
++└── reports/
++    ├── web-vulnerabilities-assessment-report.pdf
++    └── advanced-authentication-and-injection-testing-report.pdf
++```
++
++The assessment evidence (steps, impact and mitigations for each finding) is contained in the two PDF reports above. Screenshots referenced in earlier drafts of this README are not included in the repository.
+-- 
+2.43.0
+

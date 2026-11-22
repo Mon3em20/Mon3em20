@@ -159,7 +159,7 @@ The bounded prototype is a feasibility result, **not** full-MNIST or production-
 
 - [**Emotion Classification**](https://github.com/Mon3em20/emotion-classification-distilbert-bilstm): text emotion classification comparing Bi-LSTM and DistilBERT.
 - [**Deep Learning Image Captioning**](https://github.com/Mon3em20/deep-learning-image-captioning): ResNet50 feature extraction with an LSTM caption generator on MS COCO.
-- [**DES in CBC Mode**](https://github.com/Mon3em20/DES-Encryption-in-CBC-Mode): from-scratch Python DES with CBC chaining. *Educational only; DES is obsolete and not suitable for modern production use.*
+- [**DES in CBC Mode**](https://github.com/Mon3em20/DES-Encryption-in-CBC-Mode): group coursework demo of the DES round structure with CBC chaining, using fixed demonstration round keys and encryption only. *Educational only; DES is obsolete and not suitable for modern production use.*
 - [**RSA Implementation**](https://github.com/Mon3em20/RSA-Encryption-and-Decryption-Implementation): Java BigInteger RSA key generation, encryption and decryption. *Educational textbook RSA without padding; not for production use.*
 - [**TCP Chat Application**](https://github.com/Mon3em20/Bi-Directional-Chat-Application-with-TCP-Analysis): Java socket client and server.
 - [**Smart Attendance Tracking, Agile Planning**](https://github.com/Mon3em20/smart-attendance-tracking-agile-project): Scrum documentation for a QR/BLE attendance app (team course project).

@@ -1,0 +1,46 @@
+From 6f649f3f3dfec72a129ec1d013afa1404a2b820e Mon Sep 17 00:00:00 2001
+From: Claude Code <noreply@anthropic.com>
+Date: Sun, 22 Nov 2026 15:37:46 +0000
+Subject: [PATCH] Point to the primary repository and describe actual contents
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_012jmRt2neznxyD9z2G1Nh7w
+---
+ README.md | 17 +++++++++++------
+ 1 file changed, 11 insertions(+), 6 deletions(-)
+
+diff --git a/README.md b/README.md
+index 45a030d..3093cbb 100644
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1,8 @@
+ # Enterprise Network Security Architecture
+ 
++> **Note:** the primary, maintained version of this project is [`enterprise-network-security-lab`](https://github.com/Mon3em20/enterprise-network-security-lab), which contains this report plus the Milestone 1 report. This repository is kept for reference and may be archived.
++
++
+ Secure multi-branch enterprise network deployment implementing layered security controls, centralized authentication, encrypted site-to-site communication, and infrastructure hardening using Cisco technologies.
+ 
+ ---
+@@ -164,10 +167,12 @@ Instructor: Dr. Marwa Zamzam
+ 
+ ---
+ 
+-## Repository Structure
++## Repository Contents
++
++```text
++Secure-Enterprise-Network-Infrastructure/
++├── README.md
++└── Enterprise_Network_Security_Architecture_Report.pdf.pdf   (Milestone 2 report)
++```
+ 
+-```bash
+-/screenshots
+-/configurations
+-/topology
+-/report
++Screenshots, configuration files and topology files are not included in this repository.
+-- 
+2.43.0
+

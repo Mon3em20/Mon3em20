@@ -1,0 +1,26 @@
+From 718708978a8787999a1b078c3fb198e49a0bb2c2 Mon Sep 17 00:00:00 2001
+From: Claude Code <noreply@anthropic.com>
+Date: Sun, 22 Nov 2026 15:37:35 +0000
+Subject: [PATCH] Close the repository-structure code fence
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_012jmRt2neznxyD9z2G1Nh7w
+---
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 2792bf4..289c859 100644
+--- a/README.md
++++ b/README.md
+@@ -85,4 +85,5 @@ digital-forensics-investigations/
+ │   ├── windows-memory-analysis-report.pdf
+ │
+ ├── network-forensics/
+-│   ├── malicious-pcap-investigation-report.pdf
+\ No newline at end of file
++│   ├── malicious-pcap-investigation-report.pdf
++```
+-- 
+2.43.0
+

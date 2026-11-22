@@ -1,0 +1,92 @@
+From 353c0c4f2dfe7f6088bfb2bafbc39293f1b7180f Mon Sep 17 00:00:00 2001
+From: Claude Code <noreply@anthropic.com>
+Date: Sun, 22 Nov 2026 15:37:46 +0000
+Subject: [PATCH] Add team members, individual contribution and milestone
+ descriptions to README
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_012jmRt2neznxyD9z2G1Nh7w
+---
+ README.md | 61 +++++++++++++++++++++++++++++++++++++++++++++----------
+ 1 file changed, 50 insertions(+), 11 deletions(-)
+
+diff --git a/README.md b/README.md
+index 0426ac8..e4c2234 100644
+--- a/README.md
++++ b/README.md
+@@ -6,7 +6,7 @@ This repository contains multiple enterprise network security implementations an
+ 
+ The projects focus on practical enterprise networking, routing, authentication, monitoring, VPN connectivity, access control, and layered infrastructure security within simulated multi-branch enterprise environments.
+ 
+-The repository includes two complete technical reports documenting different phases of enterprise network security deployment and expansion.
++This is an academic, simulated environment (Cisco Packet Tracer) built as team coursework. It is not a production enterprise deployment. The repository includes two technical reports documenting two project milestones: the initial network design and security configuration (Milestone 1) and the multi-branch expansion (Milestone 2).
+ 
+ ---
+ 
+@@ -46,14 +46,53 @@ The repository includes two complete technical reports documenting different pha
+ 
+ # Included Reports
+ 
+-## 1. Complete Network Security Report
++## 1. Milestone 1 — Complete Network Security Report
++`complete-network-security-report.pdf` (76 pages, April 2026). Cisco Packet Tracer configuration guide for the initial enterprise infrastructure, covering:
++- OSPF dynamic routing
++- TACACS+ AAA authentication
++- SYSLOG monitoring
++- SSH hardening
++- ACL enforcement
++- IPS deployment
++- DMZ segmentation
++- Infrastructure verification
+ 
+-Enterprise infrastructure deployment and security hardening implementation covering:
+-- OSPF Dynamic Routing
+-- AAA Authentication
+-- SYSLOG Monitoring
+-- SSH Hardening
+-- ACL Enforcement
+-- IPS Deployment
+-- DMZ Segmentation
+-- Infrastructure Verification
++## 2. Milestone 2 — Network Expansion
++`Enterprise_Network_Security_Architecture_Report.pdf.pdf` (38 pages, dated May 13, 2026). Integration of a new operational branch into the existing network, covering:
++- VLAN-based segmentation
++- OSPF Area 0 routing and WAN connectivity
++- Site-to-site IPsec VPN
++- TACACS+ AAA and SSH v2 hardening
++- Switch port security with sticky MAC addressing
++- Centralized SYSLOG and verification commands
++
++---
++
++# Team Project
++
++This is a team project for the Network Security course (ICS 605), Faculty of Informatics and Computer Science, IT Security major. Instructor: Dr. Marwa Zamzam.
++
++## Team Members
++- Abdelmonem Sayed
++- Eyad Ahmed
++- Ebram Hany
++- Yassin Azab
++- Ali Abdallah
++
++## My Contribution (Abdelmonem Sayed)
++As documented in the earlier README of the related repository [`Secure-Enterprise-Network-Infrastructure`](https://github.com/Mon3em20/Secure-Enterprise-Network-Infrastructure), I contributed to the implementation and verification of:
++- OSPF routing
++- Site-to-site VPN security
++- TACACS+ AAA authentication
++- SYSLOG centralized logging
++- SSH hardening
++- Port security policies
++- Infrastructure security validation
++
++The reports are team documents and do not assign individual sections, so no further attribution is claimed here.
++
++---
++
++# Related Repository
++
++[`Secure-Enterprise-Network-Infrastructure`](https://github.com/Mon3em20/Secure-Enterprise-Network-Infrastructure) contains an identical copy of the Milestone 2 report and a shorter README. This repository is the primary version of the project.
+-- 
+2.43.0
+

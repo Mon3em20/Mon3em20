@@ -1,0 +1,45 @@
+From 8014c0b7dbd40fb9b24ed69fd26ce353ff6f3a63 Mon Sep 17 00:00:00 2001
+From: Claude Code <noreply@anthropic.com>
+Date: Sun, 22 Nov 2026 15:38:13 +0000
+Subject: [PATCH] Add README documenting the implementation and its educational
+ limitations
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_012jmRt2neznxyD9z2G1Nh7w
+---
+ README.md | 24 +++++++++++++++++++++++-
+ 1 file changed, 23 insertions(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index e910199..fff0f3e 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,23 @@
+-# RSA-Encryption-and-Decryption-Implementation-
+\ No newline at end of file
++# RSA Encryption and Decryption (Java, educational)
++
++A short educational Java implementation of textbook RSA in `src/RSA.java`, using `java.math.BigInteger`.
++
++## What it does
++
++- Asks for a key size in bits (minimum 256) and generates two random primes with `SecureRandom`.
++- Computes `n = p*q` and uses public exponent 65537 (adjusted upward if it is not coprime to phi).
++- Reads `message.txt`, encrypts the whole message as one big integer, writes the result to `encryptedRSA.txt`, then reads it back, decrypts it and writes `decryptedRSA.txt`.
++- Prints the keys, message and ciphertext to the console.
++
++## Educational limitations (not for real use)
++
++- **Textbook RSA:** no padding (such as OAEP). Encryption is deterministic and malleable.
++- **Single block:** the whole message is one integer, so the message must be smaller than `n`; longer messages are not supported.
++- **Small keys:** the program accepts keys as small as 256 bits, which are not secure. Modern guidance recommends at least 2048 bits.
++- **Key handling:** the private key is printed to the console and not stored securely.
++
++Use an established library and an approved padding scheme for any real application.
++
++## Repository notes
++
++`encyptedRSA.txt` (misspelled) and `encryptedRSA.txt` are sample outputs; `out/` contains compiled class files and `untitled.iml` is an IDE file.
+-- 
+2.43.0
+

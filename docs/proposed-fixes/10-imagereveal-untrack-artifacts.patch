@@ -1,0 +1,275 @@
+From ffa3d01b9f0d0e3586e8a119016ede9038357170 Mon Sep 17 00:00:00 2001
+From: Claude Code <noreply@anthropic.com>
+Date: Sun, 22 Nov 2026 15:38:55 +0000
+Subject: [PATCH] Stop tracking node_modules and IDE files; extend .gitignore
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_012jmRt2neznxyD9z2G1Nh7w
+---
+ .gitignore                                    |  5 ++
+ .idea/.gitignore                              |  3 -
+ .idea/ImageReveal.iml                         |  8 ---
+ .../inspectionProfiles/profiles_settings.xml  |  6 --
+ .idea/misc.xml                                |  7 ---
+ .idea/modules.xml                             |  8 ---
+ .idea/vcs.xml                                 |  6 --
+ node_modules/.package-lock.json               | 13 ----
+ node_modules/numpy/.npmignore                 | 59 -------------------
+ node_modules/numpy/LICENSE                    | 21 -------
+ node_modules/numpy/README.md                  |  2 -
+ node_modules/numpy/package.json               | 22 -------
+ 12 files changed, 5 insertions(+), 155 deletions(-)
+ delete mode 100644 .idea/.gitignore
+ delete mode 100644 .idea/ImageReveal.iml
+ delete mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ delete mode 100644 .idea/misc.xml
+ delete mode 100644 .idea/modules.xml
+ delete mode 100644 .idea/vcs.xml
+ delete mode 100644 node_modules/.package-lock.json
+ delete mode 100644 node_modules/numpy/.npmignore
+ delete mode 100644 node_modules/numpy/LICENSE
+ delete mode 100644 node_modules/numpy/README.md
+ delete mode 100644 node_modules/numpy/package.json
+
+diff --git a/.gitignore b/.gitignore
+index 0a19790..eb4b515 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -172,3 +172,8 @@ cython_debug/
+ 
+ # PyPI configuration file
+ .pypirc
++
++# Dependencies and IDE files
++node_modules/
++.idea/
++*.iml
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+index 26d3352..0000000
+--- a/.idea/.gitignore
++++ /dev/null
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+diff --git a/.idea/ImageReveal.iml b/.idea/ImageReveal.iml
+deleted file mode 100644
+index 8453fbe..0000000
+--- a/.idea/ImageReveal.iml
++++ /dev/null
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="jdk" jdkName="Python 3.13 (projectDS)" jdkType="Python SDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+deleted file mode 100644
+index 105ce2d..0000000
+--- a/.idea/inspectionProfiles/profiles_settings.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <settings>
+-    <option name="USE_PROJECT_PROFILE" value="false" />
+-    <version value="1.0" />
+-  </settings>
+-</component>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+index f12e20f..0000000
+--- a/.idea/misc.xml
++++ /dev/null
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Black">
+-    <option name="sdkName" value="Python 3.11" />
+-  </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (projectDS)" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+index dc06c8a..0000000
+--- a/.idea/modules.xml
++++ /dev/null
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/ImageReveal.iml" filepath="$PROJECT_DIR$/.idea/ImageReveal.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+index 35eb1dd..0000000
+--- a/.idea/vcs.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/node_modules/.package-lock.json b/node_modules/.package-lock.json
+deleted file mode 100644
+index 73d06d4..0000000
+--- a/node_modules/.package-lock.json
++++ /dev/null
+@@ -1,13 +0,0 @@
+-{
+-  "name": "ImageReveal",
+-  "lockfileVersion": 3,
+-  "requires": true,
+-  "packages": {
+-    "node_modules/numpy": {
+-      "version": "0.0.1",
+-      "resolved": "https://registry.npmjs.org/numpy/-/numpy-0.0.1.tgz",
+-      "integrity": "sha512-HPoSFyRtH4dRUGjI6bzeVKgfOeNtIAWLvVWMqbaNGmWKE+npdnZ6L78TEJELgZBb+9XpL6r16vOz1jaQ7YVI7Q==",
+-      "license": "MIT"
+-    }
+-  }
+-}
+diff --git a/node_modules/numpy/.npmignore b/node_modules/numpy/.npmignore
+deleted file mode 100644
+index 00cbbdf..0000000
+--- a/node_modules/numpy/.npmignore
++++ /dev/null
+@@ -1,59 +0,0 @@
+-# Logs
+-logs
+-*.log
+-npm-debug.log*
+-yarn-debug.log*
+-yarn-error.log*
+-
+-# Runtime data
+-pids
+-*.pid
+-*.seed
+-*.pid.lock
+-
+-# Directory for instrumented libs generated by jscoverage/JSCover
+-lib-cov
+-
+-# Coverage directory used by tools like istanbul
+-coverage
+-
+-# nyc test coverage
+-.nyc_output
+-
+-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+-.grunt
+-
+-# Bower dependency directory (https://bower.io/)
+-bower_components
+-
+-# node-waf configuration
+-.lock-wscript
+-
+-# Compiled binary addons (http://nodejs.org/api/addons.html)
+-build/Release
+-
+-# Dependency directories
+-node_modules/
+-jspm_packages/
+-
+-# Typescript v1 declaration files
+-typings/
+-
+-# Optional npm cache directory
+-.npm
+-
+-# Optional eslint cache
+-.eslintcache
+-
+-# Optional REPL history
+-.node_repl_history
+-
+-# Output of 'npm pack'
+-*.tgz
+-
+-# Yarn Integrity file
+-.yarn-integrity
+-
+-# dotenv environment variables file
+-.env
+-
+diff --git a/node_modules/numpy/LICENSE b/node_modules/numpy/LICENSE
+deleted file mode 100644
+index 0c826e7..0000000
+--- a/node_modules/numpy/LICENSE
++++ /dev/null
+@@ -1,21 +0,0 @@
+-MIT License
+-
+-Copyright (c) 2017 tensjs
+-
+-Permission is hereby granted, free of charge, to any person obtaining a copy
+-of this software and associated documentation files (the "Software"), to deal
+-in the Software without restriction, including without limitation the rights
+-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+-copies of the Software, and to permit persons to whom the Software is
+-furnished to do so, subject to the following conditions:
+-
+-The above copyright notice and this permission notice shall be included in all
+-copies or substantial portions of the Software.
+-
+-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+-SOFTWARE.
+diff --git a/node_modules/numpy/README.md b/node_modules/numpy/README.md
+deleted file mode 100644
+index 32412ca..0000000
+--- a/node_modules/numpy/README.md
++++ /dev/null
+@@ -1,2 +0,0 @@
+-# numpy
+-numpy 
+diff --git a/node_modules/numpy/package.json b/node_modules/numpy/package.json
+deleted file mode 100644
+index 155a24f..0000000
+--- a/node_modules/numpy/package.json
++++ /dev/null
+@@ -1,22 +0,0 @@
+-{
+-  "name": "numpy",
+-  "version": "0.0.1",
+-  "description": "numpy",
+-  "main": "index.js",
+-  "scripts": {
+-    "test": "npm test"
+-  },
+-  "repository": {
+-    "type": "git",
+-    "url": "git+https://github.com/tensjs/numpy.git"
+-  },
+-  "keywords": [
+-    "numpy"
+-  ],
+-  "author": "demohi",
+-  "license": "MIT",
+-  "bugs": {
+-    "url": "https://github.com/tensjs/numpy/issues"
+-  },
+-  "homepage": "https://github.com/tensjs/numpy#readme"
+-}
+-- 
+2.43.0
+
