@@ -1,224 +1,184 @@
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&amp;height=180&amp;color=0%3A0B1F3A%2C100%3A1E3A5F&amp;text=ABDELMONEM%20SAYED%20SOMIDA&amp;fontColor=F8FAFC&amp;fontSize=32&amp;fontAlignY=40&amp;desc=CYBERSECURITY%20%7C%20OFFENSIVE%20SECURITY%20%7C%20SECURE%20SOFTWARE&amp;descAlignY=68&amp;descSize=13" width="100%" alt="Abdelmonem Sayed Somida — Cybersecurity, Offensive Security and Secure Software" />
-</div>
-
 <div align="center">
 
-### Computer Science Student · Cybersecurity · Offensive Security
+<img src="assets/cybersecurity-profile-header.svg" width="100%" alt="Abdelmonem Sayed Somida — Cybersecurity, Offensive Security, Application Security" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelmonem-sayed-somida-9739b2312)
-[![GitHub](https://img.shields.io/badge/GitHub-Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mon3em20)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-C11111?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/monemsomida)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:monemsomida@gmail.com)
+### Cybersecurity Student &nbsp;·&nbsp; Offensive Security &nbsp;·&nbsp; Application Security &nbsp;·&nbsp; Security Engineering
 
-[Projects](#featured-projects) · [Experience](#professional-experience) · [Research](#bachelor-thesis) · [Skills](#technical-skills) · [Contact](#contact)
+B.Sc. Computer Science (Cybersecurity) at the German International University · Seeking internships and entry-level roles in Germany and Europe
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-101927?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=101927&color=00E5FF)](https://www.linkedin.com/in/abdelmonem-sayed-somida-9739b2312)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-101927?style=for-the-badge&logo=tryhackme&logoColor=00FFA3&labelColor=101927&color=00FFA3)](https://tryhackme.com/p/monemsomida)
+[![Email](https://img.shields.io/badge/Email-Contact-101927?style=for-the-badge&logo=gmail&logoColor=00E5FF&labelColor=101927&color=00E5FF)](mailto:monemsomida@gmail.com)
+
+**[About](#about) · [Focus](#cybersecurity-focus) · [Projects](#featured-security-projects) · [Experience](#professional-experience) · [Research](#research) · [Arsenal](#technical-arsenal) · [Competitions](#competitions) · [Contact](#education-and-contact)**
 
 </div>
 
 ---
 
-## About Me
+## About
 
-I'm a final-year B.Sc. Computer Science student specializing in Cybersecurity at the German International University (GIU).
+I am a Computer Science student specializing in Cybersecurity at the German International University (GIU), currently in Ulm, Germany for my Bachelor's thesis research.
 
-I have hands-on experience in web reconnaissance and application security testing from my cybersecurity internship at Breadfast, along with software development experience. My technical work includes authorized offensive security labs, web application assessments, network security design, and digital forensics investigations.
+My hands-on experience spans a **cybersecurity internship at Breadfast** (web reconnaissance, WordPress assessment, controlled vulnerability testing), **authorized offensive security labs** (web, Linux, Windows and Active Directory), **application security assessments**, **digital forensics**, and **network security design**. My thesis investigates **secure Multi-Party Computation (MPC) for privacy-preserving AI training**.
 
-I'm interested in understanding how systems fail — from input validation and access control to network trust boundaries — and how to build more secure software and infrastructure.
+I like understanding how systems fail, from input validation and access control to network trust boundaries, and documenting findings so others can act on them.
 
-**Career interests:** Cybersecurity, Application Security, Penetration Testing, and Security Engineering.
-
-**Location preference:** Germany and Europe.
-
-## Current Focus
-
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <h3>01 · Offensive Security</h3>
-      Web reconnaissance, application security testing, Active Directory attack paths, and Linux privilege escalation in authorized labs.
-    </td>
-    <td width="33%" valign="top">
-      <h3>02 · Security Engineering</h3>
-      Network hardening, digital forensics, secure authentication, authorization, and API input validation.
-    </td>
-    <td width="33%" valign="top">
-      <h3>03 · Privacy-Preserving AI</h3>
-      Bachelor thesis research on secure Multi-Party Computation (MPC) for efficient privacy-preserving AI training.
-    </td>
-  </tr>
-</table>
-
-> **Responsible security practice:** Security testing described in this portfolio was conducted in authorized or intentionally vulnerable lab environments, simulated networks, or coursework.
+> **Responsible practice.** Security testing in this portfolio was performed in authorized or intentionally vulnerable lab environments, simulated networks, internship scope, or coursework. Labs and coursework are labelled as such; none of it is presented as a professional penetration-testing engagement.
 
 ---
 
-## Featured Projects
+## Cybersecurity Focus
 
-These projects represent my main areas of technical work. Open each repository for its documentation, implementation details, and available reports.
+**Offensive Security** — Authorized lab work on enumeration, exploitation validation, privilege escalation and Active Directory attack chains.\
+`Nmap` `Metasploit` `Impacket` `Kerbrute` `Evil-WinRM`
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01 · Offensive Security Labs</h3>
-      <p>Seven documented lab write-ups covering reconnaissance, directory enumeration, MS17-010 validation, Tomcat WAR deployment, Linux privilege escalation, and an Active Directory attack chain.</p>
-      <p><code>Nmap</code> <code>Burp Suite</code> <code>Metasploit</code> <code>Impacket</code> <code>Kerbrute</code></p>
-      <p><strong>Demonstrates:</strong> Structured attack methodology and technical reporting.</p>
-      <a href="https://github.com/Mon3em20/offensive-security-labs">Explore repository →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02 · OWASP Juice Shop Security Testing</h3>
-      <p>Manual assessment of an intentionally vulnerable web application, covering XSS, SQL injection, CSRF, SSRF, CORS, brute force, password recovery, and authorization weaknesses. Includes two PDF reports.</p>
-      <p><code>Burp Suite</code> <code>Intruder</code> <code>Kali Linux</code></p>
-      <p><strong>Demonstrates:</strong> Vulnerability validation and remediation-oriented reporting.</p>
-      <a href="https://github.com/Mon3em20/owasp-juice-shop-security-testing">Explore repository →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>03 · Digital Forensics Investigations</h3>
-      <p>Memory forensics on a Windows memory dump and network forensics on malicious PCAP traffic, including process and registry artifacts, suspicious domains, exposed FTP credentials, and indicators of compromise.</p>
-      <p><code>Volatility 3</code> <code>FTK Imager</code> <code>Wireshark</code> <code>NetworkMiner</code></p>
-      <p><strong>Demonstrates:</strong> Evidence analysis and investigation reporting.</p>
-      <a href="https://github.com/Mon3em20/digital-forensics-investigations">Explore repository →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>04 · Enterprise Network Security</h3>
-      <p>A simulated multi-branch network designed and hardened with OSPF, VLANs, DMZ segmentation, TACACS+ AAA, SSH v2, port security, extended ACLs, IPS, IPsec VPN, and centralized syslog.</p>
-      <p><code>Cisco Packet Tracer</code> <code>OSPF</code> <code>TACACS+</code> <code>IPsec</code></p>
-      <p><strong>Demonstrates:</strong> Network segmentation and defense-in-depth design.</p>
-      <a href="https://github.com/Mon3em20/enterprise-network-security-lab">Explore repository →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>05 · IAM Risk Assessment &amp; Business Continuity</h3>
-      <p>A design and documentation project covering risk assessment, business impact analysis, recovery planning, RTO/RPO, backup strategy, domain-controller failover, and a warm recovery site. The design is not deployed.</p>
-      <p><code>NIST SP 800-30</code> <code>IAM</code> <code>BCP/DR</code></p>
-      <p><strong>Demonstrates:</strong> Risk analysis and resilience planning.</p>
-      <a href="https://github.com/Mon3em20/iam-business-continuity-planning">Explore repository →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>06 · Mini-Jira on AWS</h3>
-      <p>A team-built task management platform using a NestJS backend and AWS services, with Cognito-issued JWTs, role-based endpoints, server-side team isolation, S3 presigned uploads, event-driven processing, and CloudWatch monitoring.</p>
-      <p><code>AWS Cognito</code> <code>DynamoDB</code> <code>Lambda</code> <code>SNS/SQS</code></p>
-      <p><strong>Demonstrates:</strong> Cloud architecture and access-control design.</p>
-      <a href="https://github.com/youssifabozai/Mini-Jira_AWS">Explore team repository →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>07 · Emotion Classification</h3>
-      <p>Text emotion classification comparing a Bi-LSTM model with a fine-tuned DistilBERT, including preprocessing, tokenization, and confusion-matrix evaluation.</p>
-      <p><code>Python</code> <code>PyTorch</code> <code>DistilBERT</code> <code>Hugging Face</code></p>
-      <p><strong>Demonstrates:</strong> NLP model development and evaluation.</p>
-      <a href="https://github.com/Mon3em20/emotion-classification-distilbert-bilstm">Explore repository →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>08 · Deep Learning Image Captioning</h3>
-      <p>An image-captioning pipeline using ResNet50 for image feature extraction and an LSTM caption generator, built around the MS COCO dataset.</p>
-      <p><code>Python</code> <code>TensorFlow</code> <code>Keras</code> <code>ResNet50</code> <code>LSTM</code></p>
-      <p><strong>Demonstrates:</strong> Computer vision and sequence generation.</p>
-      <a href="https://github.com/Mon3em20/deep-learning-image-captioning">Explore repository →</a>
-    </td>
-  </tr>
-</table>
+**Application & Web Security** — Reconnaissance, content discovery and controlled testing for injection, XSS, CSRF, SSRF and access-control flaws.\
+`Burp Suite` `OWASP Top 10` `WPScan` `ffuf` `httpx`
 
-### Additional Projects
+**Digital Forensics & Incident Investigation** — Memory, registry and PCAP analysis; extraction of indicators of compromise.\
+`Volatility 3` `FTK Imager` `Wireshark` `NetworkMiner`
 
-<details>
-  <summary><strong>View additional coursework and team projects</strong></summary>
+**Network & Infrastructure Security** — Segmentation, device hardening, centralized authentication and logging in simulated networks.\
+`Cisco IOS` `OSPF` `ACLs` `TACACS+` `IPsec`
 
-  <br>
+**Security Research & Privacy-Preserving AI** — Bachelor thesis on secure MPC for neural-network training.\
+`MP-SPDZ` `Secure MPC` `Python`
 
-  **Online Event Ticketing System**  
-  A team-built booking platform using Next.js, NestJS, and MongoDB, with JWT authentication and role-based access for users, organizers, and administrators.  
-  [Open team repository →](https://github.com/Pedro4O4/Theater-Ticketing-System)
+---
 
-  **Enterprise HR Management System**  
-  A modular full-stack HR platform developed for the GIU Software Project course.  
-  [Open course repository →](https://github.com/GIU-Software-Project-I/Main)
+## Featured Security Projects
 
-  **Smart Attendance Tracking App — Agile Planning**  
-  Scrum documentation for a QR/BLE lecture-attendance app. My contribution covered sprint planning, risk assessment, backlog organization, team coordination, and communication planning.  
-  [Open repository →](https://github.com/Mon3em20/smart-attendance-tracking-agile-project)
+Each project links to its repository, where the write-ups and reports live. Scope is stated honestly for every one.
 
-</details>
+### 1 · [Offensive Security Labs](https://github.com/Mon3em20/offensive-security-labs)
+> **Authorized educational lab work, not professional engagements.** Seven documented write-ups in total. Six are hands-on exercises in authorized lab environments (TryHackMe and intentionally vulnerable machines): directory enumeration, MS17-010 validation, Apache Tomcat WAR deployment, Linux privilege escalation, cron/PATH hijacking, and an Active Directory chain (Kerberos enumeration, AS-REP roasting, DCSync, NTDS extraction, Pass-the-Hash). The seventh is a passive-only reconnaissance exercise on a public domain, with no intrusive scanning.
+>
+> **Tools:** `Nmap` `Burp Suite` `Metasploit` `MSFVenom` `Impacket` `Kerbrute` `Evil-WinRM` `John the Ripper`\
+> **Demonstrates:** structured attack methodology and clear technical reporting. Most labs include a PDF report.
+
+### 2 · [OWASP Juice Shop Security Testing](https://github.com/Mon3em20/owasp-juice-shop-security-testing)
+> **Controlled application security assessment** of an intentionally vulnerable app. Covers stored, DOM-based and reflected XSS, UNION-based SQL injection, SQL-injection authentication bypass, CSRF, SSRF, broken CORS, brute-force login, weak password recovery and missing authorization controls. Two PDF assessment reports.
+>
+> **Tools:** `Burp Suite` `Burp Intruder` `Browser DevTools` `Kali Linux`\
+> **Demonstrates:** manual vulnerability validation and remediation-oriented reporting.
+
+### 3 · [Digital Forensics Investigations](https://github.com/Mon3em20/digital-forensics-investigations)
+> **DFIR and investigative analysis** in lab environments. Windows memory forensics (processes, user sessions, registry artifacts) and network forensics on malicious PCAP traffic (suspicious domains, exposed FTP credentials, indicators of compromise). Two PDF reports.
+>
+> **Tools:** `Volatility 3` `FTK Imager` `Wireshark` `NetworkMiner`\
+> **Demonstrates:** evidence-driven analysis and investigation reporting.
+
+### 4 · [Enterprise Network Security](https://github.com/Mon3em20/enterprise-network-security-lab)
+> **Academic simulated network (Cisco Packet Tracer), team coursework, not a production deployment.** Multi-branch design with OSPF Area 0, VLANs, DMZ segmentation, TACACS+ AAA, SSH v2 hardening, port security, extended ACLs, IPsec VPN, centralized SYSLOG and verification of the configuration. Two PDF reports.
+>
+> **Tools:** `Cisco IOS` `Packet Tracer` `OSPF` `TACACS+` `IPsec`\
+> **Demonstrates:** layered, defense-in-depth network design.
+
+### 5 · [Secure MPC Bachelor Thesis](https://github.com/Mon3em20/graduation-mpc-ff)
+> **Ongoing research.** Plaintext Backpropagation and Forward-Forward baselines on MNIST, plus a bounded three-party Secure Backpropagation prototype in MP-SPDZ. See [Research](#research) for exactly what is complete and what is future work.
+>
+> **Tools:** `Python` `MP-SPDZ` `Secure MPC`\
+> **Demonstrates:** reproducible, evidence-tracked experimental method.
+
+### 6 · [IAM Risk Assessment & Business Continuity](https://github.com/Mon3em20/iam-business-continuity-planning)
+> **Academic design and documentation project; not deployed.** NIST SP 800-30 risk assessment, risk register, business impact analysis, RTO/RPO, Active Directory architecture, backup strategy, disaster recovery and high-availability planning.
+>
+> **Tools:** `NIST SP 800-30` `Active Directory` `BCP/DR`\
+> **Demonstrates:** GRC thinking and security resilience planning.
 
 ---
 
 ## Professional Experience
 
 ### Cybersecurity Intern · Breadfast
-<sub>July 2026 – August 2026</sub>
+<sub>July 2026 – August 2026 · **Professional internship**</sub>
 
-- Performed web reconnaissance and technology fingerprinting, including subdomain and endpoint discovery and WordPress version detection, using httpx, WhatWeb, WPScan, and custom Python checks.
-- Automated content discovery with ffuf, feroxbuster, and dirsearch, organizing results into CSV and JSON reports.
-- Conducted controlled testing for SQL injection, XSS, OS command injection, and path traversal, assessing input validation and filtering across target endpoints.
+- Web reconnaissance and technology fingerprinting: subdomain and endpoint discovery and WordPress assessment.
+- Automated content discovery and organized results into structured CSV and JSON reports.
+- Controlled testing for SQL injection, XSS, OS command injection and path traversal.
+- **Tools:** `httpx` `WhatWeb` `WPScan` `ffuf` `feroxbuster` `dirsearch` `Python` `Burp Suite`
 
 ### Software Development Intern · Genesis Infotech (Arma Group)
-<sub>July 2025 – September 2025</sub>
+<sub>July 2025 – September 2025 · **Professional internship**</sub>
 
-- Built full-stack features with Node.js, React, MongoDB, and Supabase, implementing JWT authentication, role-based access control, and API input validation.
-- Developed a Python Course Management System integrating CLI workflows with database operations as part of a cross-functional team.
+- Full-stack features with Node.js and React on MongoDB and Supabase, including JWT authentication, role-based access control and API input validation.
+- Built a Python Course Management System as part of a team.
 
 ---
 
-## Bachelor Thesis
+## Research
 
 ### Biologically Plausible Secure Multi-Party Computation (MPC) for Efficient Privacy-Preserving AI Training
+<sub>**Bachelor thesis · ongoing** · GIU · research stay in Ulm, Germany</sub>
 
-<sub>German International University, Egypt: September–October 2026 · German Universities Ulm Campus, Germany: November 2026–January 2027</sub>
+**Question.** How do Backpropagation (BP) and the biologically inspired Forward-Forward (FF) algorithm compare in utility, computation and communication when training must stay private?
 
-My research investigates computational and communication overhead in privacy-preserving AI training using Secure Multi-Party Computation (MPC). I am exploring whether biologically inspired learning approaches, including Forward-Forward and Spiking Neural Networks, could improve the efficiency of secure training.
+**Method.** Plaintext BP and FF baselines on MNIST (five random seeds), then secure computation with [MP-SPDZ](https://github.com/data61/MP-SPDZ) v0.4.4 in a three-party, semi-honest, honest-majority Rep3 Ring setting.
 
-The goal is to develop a practical, testable solution and evaluate its efficiency and performance against appropriate baselines.
-
-**Status:** Research in progress. Implementation and experimental evaluation are planned as part of the thesis.
-
----
-
-## Technical Skills
-
-| Area | Technologies and Methods |
+| Status | Work |
 |---|---|
-| **Web & Application Security** | Burp Suite, OWASP Top 10 testing, XSS, SQL injection, CSRF, SSRF, CORS, access control, WPScan, ffuf, feroxbuster, dirsearch, httpx, WhatWeb |
-| **Offensive Security — Labs** | Kali Linux, Nmap, Metasploit, MSFVenom, Impacket, Kerbrute, Evil-WinRM, John the Ripper, Active Directory attack paths, Linux privilege escalation |
-| **Network Security** | Cisco IOS, Packet Tracer, OSPF, ACLs, TACACS+, IPsec VPN, SSH hardening, network segmentation |
-| **Digital Forensics** | Volatility 3, Wireshark, FTK Imager, NetworkMiner, memory artifacts, registry analysis, PCAP analysis |
-| **Programming** | Python, JavaScript/TypeScript, Java, C++, SQL |
-| **Software & Cloud** | Node.js, React, MongoDB, Supabase, REST APIs, JWT, RBAC, API input validation, AWS Cognito, Lambda, DynamoDB |
-| **Risk & Governance** | NIST SP 800-30, business impact analysis, business continuity and disaster recovery planning |
-| **AI/ML** | NLP, Bi-LSTM, DistilBERT, PyTorch, TensorFlow/Keras, Hugging Face Transformers, model evaluation |
+| ✅ Complete | Stage A: environment and plaintext feasibility, plaintext BP and FF baselines |
+| ✅ Complete | Stage B: bounded Secure BP prototype, executed on a small MNIST subset (90 / 30 / 30 examples) |
+| ⏳ Future | Stage C: Secure Forward-Forward · Stage D: per-operation BP/FF profiling · Stage E: MPC-aware FF modification |
 
-**Currently learning:** Cloud Security and DevSecOps.
+The completed secure implementation currently covers **Secure Backpropagation only**, as a bounded prototype: a feasibility result, **not** full-MNIST or production-scale secure training. Secure Forward-Forward and Spiking Neural Networks are **future work and have not been implemented**.
+
+[Open the research repository →](https://github.com/Mon3em20/graduation-mpc-ff)
 
 ---
 
-## Education & Achievements
+## Technical Arsenal
 
-- **B.Sc. Computer Science — German International University (GIU)**  
-  2023–2027 · Specialization: Cybersecurity
-- **GIU Capture The Flag 2026**  
-  Team participation covering Digital Forensics, Cryptography, Web Security, and OSINT. Team score: 1,500 points.  
-  [CTF repository and details →](https://github.com/Mon3em20/CTF-2026-GIU)
-- **TryHackMe**  
-  Practice in Active Directory, privilege escalation, and web exploitation.  
-  [View profile →](https://tryhackme.com/p/monemsomida)
-
-**Languages:** Arabic (Native) · English (B2) · German (B1)
+| Area | Tools and concepts |
+|---|---|
+| **Application & Web Security** | `Burp Suite` `OWASP Top 10` `Nmap` `WPScan` `httpx` `WhatWeb` `ffuf` `feroxbuster` `dirsearch` |
+| **Offensive Security Labs** | `Kali Linux` `Metasploit` `Impacket` `Kerbrute` `Evil-WinRM` `Active Directory attack paths` `Linux privilege escalation` |
+| **Digital Forensics** | `Volatility 3` `FTK Imager` `Wireshark` `NetworkMiner` |
+| **Network Security** | `Cisco IOS` `Packet Tracer` `OSPF` `ACLs` `TACACS+` `IPsec VPN` `SSH hardening` `SYSLOG` |
+| **Programming** | `Python` `JavaScript/TypeScript` `Java` `C++` `SQL` |
+| **Software & Cloud** | `Node.js` `React` `MongoDB` `Supabase` `REST APIs` `JWT` `RBAC` `AWS Cognito` `Lambda` `DynamoDB` |
+| **Security Research** | `MP-SPDZ` `Secure MPC` `Privacy-preserving AI` |
+| **Risk & Governance** | `NIST SP 800-30` `IAM` `BIA` `BCP/DR` |
 
 ---
 
-## Contact
+## Competitions
 
-I'm interested in cybersecurity internships and entry-level opportunities, particularly in application security, offensive security, and security engineering.
+**GIU Capture The Flag 2026** (12 May 2026) — team participation as "Flag ela rob3" across Digital Forensics, Web Security, Cryptography and OSINT. **Team score: 1,500 points** (a team result, not an individual score).\
+[Repository and details](https://github.com/Mon3em20/CTF-2026-GIU)
+
+---
+
+## Other Technical Projects
+
+<details>
+<summary><strong>Other Technical Projects &amp; Coursework</strong> (click to expand)</summary>
+
+<br>
+
+- [**Emotion Classification**](https://github.com/Mon3em20/emotion-classification-distilbert-bilstm): text emotion classification comparing Bi-LSTM and DistilBERT.
+- [**Deep Learning Image Captioning**](https://github.com/Mon3em20/deep-learning-image-captioning): ResNet50 feature extraction with an LSTM caption generator on MS COCO.
+- [**DES in CBC Mode**](https://github.com/Mon3em20/DES-Encryption-in-CBC-Mode): group coursework demo of the DES round structure with CBC chaining, using fixed demonstration round keys and encryption only. *Educational only; DES is obsolete and not suitable for modern production use.*
+- [**RSA Implementation**](https://github.com/Mon3em20/RSA-Encryption-and-Decryption-Implementation): Java BigInteger RSA key generation, encryption and decryption. *Educational textbook RSA without padding; not for production use.*
+- [**TCP Chat Application**](https://github.com/Mon3em20/Bi-Directional-Chat-Application-with-TCP-Analysis): Java socket client and server.
+- [**Smart Attendance Tracking, Agile Planning**](https://github.com/Mon3em20/smart-attendance-tracking-agile-project): Scrum documentation for a QR/BLE attendance app (team course project).
+
+</details>
+
+---
+
+## Education and Contact
+
+**B.Sc. Computer Science, German International University (GIU), Egypt** · 2023–2027 · Specialization: Cybersecurity\
+**Languages:** Arabic (native) · English (B2) · German (B1)\
+**Location:** currently in Ulm, Germany for thesis research (temporary)\
+**Currently exploring:** Cloud Security & DevSecOps
+
+I am interested in cybersecurity internships and entry-level opportunities in offensive security, penetration testing, application security, network security, digital forensics and security engineering across Germany and Europe.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdelmonem_Sayed_Somida-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelmonem-sayed-somida-9739b2312)
-[![Email](https://img.shields.io/badge/Email-monemsomida%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:monemsomida@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Mon3em20-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mon3em20)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-monemsomida-C11111?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/monemsomida)
+[LinkedIn](https://www.linkedin.com/in/abdelmonem-sayed-somida-9739b2312) · [GitHub](https://github.com/Mon3em20) · [TryHackMe](https://tryhackme.com/p/monemsomida) · [monemsomida@gmail.com](mailto:monemsomida@gmail.com)
 
 </div>
