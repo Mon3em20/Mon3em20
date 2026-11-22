@@ -45,7 +45,7 @@ Audit date: 2026-11-22. Method: shallow clones of 38 repositories (36 public, 1 
 
 ## 5. Security hygiene
 
-- **`Library-Management-System` commits a `.env` file.** Its values were not inspected beyond confirming the file exists. Rotate anything real in it, remove it from history, and add `.env` to `.gitignore`.
+- `Library-Management-System` tracks an `.env` file, but history inspection (see `FOLLOW_UP_REVIEW.md`) shows it has always been empty (0 bytes); no credentials were ever committed. Optional hygiene: untrack it and add a `.gitignore`.
 - `ImageReveal` commits `node_modules/`; several repos commit `.idea/` and compiled `.class` files.
 - The thesis LaTeX repository name embeds a student ID number (`-Abdelmonem-sayed_13006494-…`). Consider renaming. It was not linked in the README.
 - `support-smartflow` is private (not inspected).
@@ -85,4 +85,4 @@ Source files: `index.html`, `script.js`, `style.css`, `mediaqueries.css`, `asset
 
 ## 9. Limits of this audit
 
-External links (LinkedIn, TryHackMe, third-party repositories) could not be fetched from this environment, so they were checked only for format; the two teammate-owned GitHub repositories and the Mini-Jira repository were confirmed to exist via `git ls-remote`/clone. Mini-Jira shows 10 commits by an "abdelmonem" author; this was not matched to your account, so confirm your role before keeping it listed. PDF contents were not read; claims come from READMEs and your brief.
+External links (LinkedIn, TryHackMe, third-party repositories) could not be fetched from this environment, so they were checked only for format; the two teammate-owned GitHub repositories and the Mini-Jira repository were confirmed to exist via `git ls-remote`/clone. Teammate-owned repositories were removed from the README (see `FOLLOW_UP_REVIEW.md`). PDF contents were not read; claims come from READMEs and your brief.

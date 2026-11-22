@@ -145,8 +145,8 @@ The bounded prototype is a feasibility result, **not** full-MNIST or production-
 
 ## Competitions
 
-**GIU Capture The Flag 2026** — team participation as "Flag ela rob3" across Digital Forensics, Web Security, Cryptography and OSINT. **Team score: 1,500 points** (a team result, not an individual score).
-[Repository](https://github.com/Mon3em20/CTF-2026-GIU) · [Certificate](https://github.com/Mon3em20/CTF-2026-GIU/blob/main/certificate.jpeg)
+**GIU Capture The Flag 2026** (12 May 2026) — team participation as "Flag ela rob3" across Digital Forensics, Web Security, Cryptography and OSINT. **Team score: 1,500 points** (a team result, not an individual score).
+[Repository and details](https://github.com/Mon3em20/CTF-2026-GIU)
 
 ---
 
@@ -163,7 +163,6 @@ The bounded prototype is a feasibility result, **not** full-MNIST or production-
 - [**RSA Implementation**](https://github.com/Mon3em20/RSA-Encryption-and-Decryption-Implementation): Java BigInteger RSA key generation, encryption and decryption. *Educational textbook RSA without padding; not for production use.*
 - [**TCP Chat Application**](https://github.com/Mon3em20/Bi-Directional-Chat-Application-with-TCP-Analysis): Java socket client and server.
 - [**Smart Attendance Tracking, Agile Planning**](https://github.com/Mon3em20/smart-attendance-tracking-agile-project): Scrum documentation for a QR/BLE attendance app (team course project).
-- **Team repositories owned by teammates:** [Online Event Ticketing System](https://github.com/Pedro4O4/Theater-Ticketing-System) · [Mini-Jira on AWS](https://github.com/youssifabozai/Mini-Jira_AWS) · [Enterprise HR Management System](https://github.com/GIU-Software-Project-I/Main)
 
 </details>
 

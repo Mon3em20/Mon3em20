@@ -10,16 +10,11 @@
 ## Why (key editorial decisions)
 
 - **Six featured projects match your priority list.** Network security is a single card (`enterprise-network-security-lab`) because both network repos share an identical report.
-- **Removed from the old README:** the AI/ML projects as featured items, and "Mini-Jira on AWS" as a featured card (a teammate's repository), demoted into the collapsed section and labelled as teammate-owned.
+- **Removed from the old README:** the AI/ML projects as featured items, and "Mini-Jira on AWS" (a teammate's repository); the other teammate-owned links were removed as well.
 - **Research status is conservative.** Only Stage A and Stage B (bounded prototype) are claimed. Secure FF and SNNs are stated as not implemented. Results from separate runs are not mixed, and no performance numbers are quoted.
 - **Team and scope labels** appear on the labs, the network project, the CTF (team score) and the IAM project (not deployed).
 - **Fixed anchors:** headings are plain text so GitHub's auto-generated anchors are predictable; all eight internal links were checked.
 
-## Needs your decision
+## Follow-up decisions applied
 
-1. **Research README is stale.** Your docs record a completed single-seed full-size Secure BP run. I did not feature it because you asked me not to mix runs. Tell me if you want it added with its caveats.
-2. **Snake workflow**: it never ran because it was outside `.github/workflows/`. The move is committed separately; after merging, run the workflow once, confirm an `output` branch with the SVGs exists, and only then add the snake image to the README.
-3. **Committed `.env` in `Library-Management-System`**; thesis repo name contains a student ID.
-4. **Mini-Jira**: confirm your role before leaving it listed.
-5. Confirm the certificate image is appropriate to link publicly.
-6. C++ is listed because you provided it; no C++ repository was found in the account.
+See `docs/FOLLOW_UP_REVIEW.md` for evidence. In short: README stays conservative on the research (bounded prototype only) with recommended wording for a separate update; the snake workflow move stays a separate commit and the README has no snake until the SVGs exist; `Library-Management-System` never contained credentials; a thesis repo rename is recommended but not done; Mini-Jira and the two other teammate-owned repositories were removed from the README; the certificate link was removed and the CTF entry now shows the certificate-verified date; C++ remains in the skills list without any project claim.
