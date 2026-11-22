@@ -30,19 +30,19 @@ I like understanding how systems fail, from input validation and access control 
 
 ## Cybersecurity Focus
 
-**Offensive Security** — Authorized lab work on enumeration, exploitation validation, privilege escalation and Active Directory attack chains.
+**Offensive Security** — Authorized lab work on enumeration, exploitation validation, privilege escalation and Active Directory attack chains.\
 `Nmap` `Metasploit` `Impacket` `Kerbrute` `Evil-WinRM`
 
-**Application & Web Security** — Reconnaissance, content discovery and controlled testing for injection, XSS, CSRF, SSRF and access-control flaws.
+**Application & Web Security** — Reconnaissance, content discovery and controlled testing for injection, XSS, CSRF, SSRF and access-control flaws.\
 `Burp Suite` `OWASP Top 10` `WPScan` `ffuf` `httpx`
 
-**Digital Forensics & Incident Investigation** — Memory, registry and PCAP analysis; extraction of indicators of compromise.
+**Digital Forensics & Incident Investigation** — Memory, registry and PCAP analysis; extraction of indicators of compromise.\
 `Volatility 3` `FTK Imager` `Wireshark` `NetworkMiner`
 
-**Network & Infrastructure Security** — Segmentation, device hardening, centralized authentication and logging in simulated networks.
+**Network & Infrastructure Security** — Segmentation, device hardening, centralized authentication and logging in simulated networks.\
 `Cisco IOS` `OSPF` `ACLs` `TACACS+` `IPsec`
 
-**Security Research & Privacy-Preserving AI** — Bachelor thesis on secure MPC for neural-network training.
+**Security Research & Privacy-Preserving AI** — Bachelor thesis on secure MPC for neural-network training.\
 `MP-SPDZ` `Secure MPC` `Python`
 
 ---
@@ -52,39 +52,39 @@ I like understanding how systems fail, from input validation and access control 
 Each project links to its repository, where the write-ups and reports live. Scope is stated honestly for every one.
 
 ### 1 · [Offensive Security Labs](https://github.com/Mon3em20/offensive-security-labs)
-> **Authorized educational lab work, not professional engagements.** Seven documented write-ups on TryHackMe and intentionally vulnerable machines: passive web reconnaissance, directory enumeration, MS17-010 validation, Apache Tomcat WAR deployment, Linux privilege escalation, cron/PATH hijacking, and an Active Directory chain (Kerberos enumeration, AS-REP roasting, DCSync, NTDS extraction, Pass-the-Hash).
+> **Authorized educational lab work, not professional engagements.** Seven documented write-ups in total. Six are hands-on exercises in authorized lab environments (TryHackMe and intentionally vulnerable machines): directory enumeration, MS17-010 validation, Apache Tomcat WAR deployment, Linux privilege escalation, cron/PATH hijacking, and an Active Directory chain (Kerberos enumeration, AS-REP roasting, DCSync, NTDS extraction, Pass-the-Hash). The seventh is a passive-only reconnaissance exercise on a public domain, with no intrusive scanning.
 >
-> **Tools:** `Nmap` `Burp Suite` `Metasploit` `MSFVenom` `Impacket` `Kerbrute` `Evil-WinRM` `John the Ripper`
+> **Tools:** `Nmap` `Burp Suite` `Metasploit` `MSFVenom` `Impacket` `Kerbrute` `Evil-WinRM` `John the Ripper`\
 > **Demonstrates:** structured attack methodology and clear technical reporting. Most labs include a PDF report.
 
 ### 2 · [OWASP Juice Shop Security Testing](https://github.com/Mon3em20/owasp-juice-shop-security-testing)
 > **Controlled application security assessment** of an intentionally vulnerable app. Covers stored, DOM-based and reflected XSS, UNION-based SQL injection, SQL-injection authentication bypass, CSRF, SSRF, broken CORS, brute-force login, weak password recovery and missing authorization controls. Two PDF assessment reports.
 >
-> **Tools:** `Burp Suite` `Burp Intruder` `Browser DevTools` `Kali Linux`
+> **Tools:** `Burp Suite` `Burp Intruder` `Browser DevTools` `Kali Linux`\
 > **Demonstrates:** manual vulnerability validation and remediation-oriented reporting.
 
 ### 3 · [Digital Forensics Investigations](https://github.com/Mon3em20/digital-forensics-investigations)
 > **DFIR and investigative analysis** in lab environments. Windows memory forensics (processes, user sessions, registry artifacts) and network forensics on malicious PCAP traffic (suspicious domains, exposed FTP credentials, indicators of compromise). Two PDF reports.
 >
-> **Tools:** `Volatility 3` `FTK Imager` `Wireshark` `NetworkMiner`
+> **Tools:** `Volatility 3` `FTK Imager` `Wireshark` `NetworkMiner`\
 > **Demonstrates:** evidence-driven analysis and investigation reporting.
 
 ### 4 · [Enterprise Network Security](https://github.com/Mon3em20/enterprise-network-security-lab)
 > **Academic simulated network (Cisco Packet Tracer), team coursework, not a production deployment.** Multi-branch design with OSPF Area 0, VLANs, DMZ segmentation, TACACS+ AAA, SSH v2 hardening, port security, extended ACLs, IPsec VPN, centralized SYSLOG and verification of the configuration. Two PDF reports.
 >
-> **Tools:** `Cisco IOS` `Packet Tracer` `OSPF` `TACACS+` `IPsec`
+> **Tools:** `Cisco IOS` `Packet Tracer` `OSPF` `TACACS+` `IPsec`\
 > **Demonstrates:** layered, defense-in-depth network design.
 
 ### 5 · [Secure MPC Bachelor Thesis](https://github.com/Mon3em20/graduation-mpc-ff)
 > **Ongoing research.** Plaintext Backpropagation and Forward-Forward baselines on MNIST, plus a bounded three-party Secure Backpropagation prototype in MP-SPDZ. See [Research](#research) for exactly what is complete and what is future work.
 >
-> **Tools:** `Python` `MP-SPDZ` `Secure MPC`
+> **Tools:** `Python` `MP-SPDZ` `Secure MPC`\
 > **Demonstrates:** reproducible, evidence-tracked experimental method.
 
 ### 6 · [IAM Risk Assessment & Business Continuity](https://github.com/Mon3em20/iam-business-continuity-planning)
 > **Academic design and documentation project; not deployed.** NIST SP 800-30 risk assessment, risk register, business impact analysis, RTO/RPO, Active Directory architecture, backup strategy, disaster recovery and high-availability planning.
 >
-> **Tools:** `NIST SP 800-30` `Active Directory` `BCP/DR`
+> **Tools:** `NIST SP 800-30` `Active Directory` `BCP/DR`\
 > **Demonstrates:** GRC thinking and security resilience planning.
 
 ---
@@ -122,7 +122,7 @@ Each project links to its repository, where the write-ups and reports live. Scop
 | ✅ Complete | Stage B: bounded Secure BP prototype, executed on a small MNIST subset (90 / 30 / 30 examples) |
 | ⏳ Future | Stage C: Secure Forward-Forward · Stage D: per-operation BP/FF profiling · Stage E: MPC-aware FF modification |
 
-The bounded prototype is a feasibility result, **not** full-MNIST or production-scale secure training. Secure Forward-Forward and Spiking Neural Networks have **not** been implemented.
+The completed secure implementation currently covers **Secure Backpropagation only**, as a bounded prototype: a feasibility result, **not** full-MNIST or production-scale secure training. Secure Forward-Forward and Spiking Neural Networks are **future work and have not been implemented**.
 
 [Open the research repository →](https://github.com/Mon3em20/graduation-mpc-ff)
 
@@ -145,7 +145,7 @@ The bounded prototype is a feasibility result, **not** full-MNIST or production-
 
 ## Competitions
 
-**GIU Capture The Flag 2026** (12 May 2026) — team participation as "Flag ela rob3" across Digital Forensics, Web Security, Cryptography and OSINT. **Team score: 1,500 points** (a team result, not an individual score).
+**GIU Capture The Flag 2026** (12 May 2026) — team participation as "Flag ela rob3" across Digital Forensics, Web Security, Cryptography and OSINT. **Team score: 1,500 points** (a team result, not an individual score).\
 [Repository and details](https://github.com/Mon3em20/CTF-2026-GIU)
 
 ---
@@ -170,9 +170,10 @@ The bounded prototype is a feasibility result, **not** full-MNIST or production-
 
 ## Education and Contact
 
-**B.Sc. Computer Science, German International University (GIU), Egypt** · 2023–2027 · Specialization: Cybersecurity
-**Languages:** Arabic (native) · English (B2) · German (B1)
-**Location:** currently in Ulm, Germany for thesis research (temporary)
+**B.Sc. Computer Science, German International University (GIU), Egypt** · 2023–2027 · Specialization: Cybersecurity\
+**Languages:** Arabic (native) · English (B2) · German (B1)\
+**Location:** currently in Ulm, Germany for thesis research (temporary)\
+**Currently exploring:** Cloud Security & DevSecOps
 
 I am interested in cybersecurity internships and entry-level opportunities in offensive security, penetration testing, application security, network security, digital forensics and security engineering across Germany and Europe.
 
