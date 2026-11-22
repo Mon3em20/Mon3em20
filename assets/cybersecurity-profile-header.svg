@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Abdelmonem Sayed Somida — Cybersecurity, Offensive Security, Application Security</title>
+  <desc id="d">Dark cybersecurity command-center banner. A glowing shield with a keyhole sits inside a protected network of connected nodes and circuit traces, next to a small terminal panel showing scan status lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B12"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#00FFA3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1B2A40" stroke-width="1" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <circle cx="1040" cy="210" r="260" fill="url(#glow)"/>
+
+  <!-- circuit traces (right side) -->
+  <g fill="none" stroke="#1F3A55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M760 70H850L890 110H960"/>
+    <path d="M760 350H860L900 310H960"/>
+    <path d="M1120 110H1190L1230 150V220"/>
+    <path d="M1120 310H1180L1220 270V220"/>
+    <path d="M820 210H940"/>
+    <path d="M1140 210H1230"/>
+    <path d="M1010 40V90"/>
+    <path d="M1070 380V330"/>
+  </g>
+  <g fill="none" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.75">
+    <path d="M890 110H960"/>
+    <path d="M900 310H960"/>
+    <path d="M1120 110H1190"/>
+    <path d="M1120 310H1180"/>
+  </g>
+
+  <!-- network nodes -->
+  <g fill="#0B1220" stroke="#00E5FF" stroke-width="2">
+    <circle cx="760" cy="70" r="7"/>
+    <circle cx="760" cy="350" r="7"/>
+    <circle cx="820" cy="210" r="7"/>
+    <circle cx="1230" cy="220" r="7"/>
+    <circle cx="1010" cy="40" r="6"/>
+    <circle cx="1070" cy="380" r="6"/>
+  </g>
+  <g fill="#00FFA3">
+    <circle cx="890" cy="110" r="4"/>
+    <circle cx="900" cy="310" r="4"/>
+    <circle cx="1190" cy="110" r="4"/>
+    <circle cx="1180" cy="310" r="4"/>
+  </g>
+
+  <!-- shield -->
+  <g transform="translate(1040 210)">
+    <circle r="132" fill="none" stroke="#1F3A55" stroke-width="1.5" stroke-dasharray="3 9"/>
+    <path d="M0 -112 L88 -78 V-6 C88 52 48 92 0 114 C-48 92 -88 52 -88 -6 V-78 Z" fill="#101927" stroke="url(#accent)" stroke-width="4"/>
+    <path d="M0 -88 L68 -62 V-4 C68 40 38 72 0 90 C-38 72 -68 40 -68 -4 V-62 Z" fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.45"/>
+    <!-- keyhole -->
+    <circle cx="0" cy="-12" r="17" fill="none" stroke="#00FFA3" stroke-width="5"/>
+    <path d="M0 4 V46" stroke="#00FFA3" stroke-width="7" stroke-linecap="round"/>
+    <!-- inner chip pins -->
+    <g stroke="#00E5FF" stroke-width="2" opacity="0.6" stroke-linecap="round">
+      <path d="M-40 -40H-24M40 -40H24M-52 20H-34M52 20H34"/>
+    </g>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="72" y="96" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="20" fill="#00FFA3" letter-spacing="3">&gt;_ SECURITY // PORTFOLIO</text>
+
+  <!-- name -->
+  <text x="72" y="178" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="800" fill="#F1F5F9" textLength="430" lengthAdjust="spacingAndGlyphs">ABDELMONEM</text>
+  <text x="72" y="244" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="800" fill="#F1F5F9" textLength="480" lengthAdjust="spacingAndGlyphs">SAYED SOMIDA</text>
+  <rect x="72" y="264" width="180" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- positioning -->
+  <text x="72" y="312" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#00E5FF" textLength="660" lengthAdjust="spacingAndGlyphs">CYBERSECURITY | OFFENSIVE SECURITY | APPLICATION SECURITY</text>
+  <text x="72" y="346" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="18" fill="#94A3B8">B.Sc. Computer Science · GIU · Germany &amp; Europe</text>
+
+  <!-- terminal panel -->
+  <g transform="translate(72 372)">
+    <rect width="470" height="30" rx="6" fill="#101927" stroke="#1F3A55"/>
+    <circle cx="16" cy="15" r="4" fill="#94A3B8" opacity="0.5"/>
+    <circle cx="30" cy="15" r="4" fill="#94A3B8" opacity="0.5"/>
+    <circle cx="44" cy="15" r="4" fill="#94A3B8" opacity="0.5"/>
+    <text x="64" y="20" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#94A3B8">recon → analyze → validate → report <tspan fill="#00FFA3">[ok]</tspan></text>
+  </g>
+
+  <!-- bottom accent line -->
+  <rect y="414" width="1280" height="6" fill="url(#accent)" opacity="0.9"/>
+</svg>
